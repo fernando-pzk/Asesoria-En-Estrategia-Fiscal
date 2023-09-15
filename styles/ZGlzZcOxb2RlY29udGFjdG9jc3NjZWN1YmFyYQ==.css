@@ -52,67 +52,6 @@ body{
     color: white;
 }
 
-/* Estilo del div independiente para los botones de trámites */
-.tramites-container {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    background-color: #fff; /* Color de fondo para los botones */
-    padding: 20px;
-    z-index: 2; /* Asegura que esté por encima de otros elementos */
-    box-shadow: -3px 0px 5px rgba(0, 0, 0, 0.2); /* Sombra para destacar */
-}
-
-/* Estilo de los botones de trámites */
-.btn-tramite {
-    color: white;
-    display: block;
-    margin-bottom: 10px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
-    color: #000; /* Cambia el color del texto */
-}
-
-/* Estilo de los botones de trámites - Fiscal */
-.btn-fiscal {
-    color: white;
-    background-color: #007BFF; /* Color correspondiente a la paleta de colores */
-}
-
-/* Estilo de los botones de trámites - Contable */
-.btn-contable {
-    color: white;
-    background-color: #94ebeb; /* Color correspondiente a la paleta de colores */
-}
-
-/* Estilo de los botones de trámites - Corporativo */
-.btn-corporativo {
-    color: white;
-    background-color: #ff9900; /* Color correspondiente a la paleta de colores */
-}
-
-/* Hover para los botones de trámites */
-.btn-tramite:hover {
-    background-color: #d8d8d8;
-    transition: 0.3s;
-}
-/* Estilo del div independiente para los botones de trámites */
-.tramites-container {
-    color: white;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background-color: rgba(255, 255, 255, 0);
-    padding: 20px;
-    z-index: 2;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease; /* Agregamos una transición */
-    border: 1px solid white;
-}
-
 .option {
     float: right;
 }
