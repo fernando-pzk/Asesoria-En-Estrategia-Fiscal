@@ -232,7 +232,7 @@ body:hover {
 
     .img-src-hov-logo {
         top: 240px;
-        left: 10px;
+        right: 10px;
         height: 60px;
         padding: 5px;
     background-image: none;
@@ -243,7 +243,7 @@ body:hover {
     }
     
 .option {
-    float: right;
+    float: none;
     right: 100px;
     font-size: 15px;
 }
