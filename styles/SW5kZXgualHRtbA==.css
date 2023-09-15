@@ -230,9 +230,9 @@ body:hover {
 
     .img-src-hov-logo {
         top: 240px;
-        left: 290px;
+        right: 20px;
         height: 50px;
-        padding: 20px;
+        padding: 15px;
     }
     .tramites-container{
         opacity: 0%;
