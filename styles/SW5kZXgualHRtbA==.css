@@ -248,10 +248,16 @@ body:hover {
     font-size: 15px;
 }
 
+    container{
+    left: 20px;
+    width: 55%;
+        transition:0.5s;
+    }
 }
 
 /* Estilos del contenedor de información */
 .container {
+        transition:0.5s;
     position: relative;
     top: 700px;
     width: 42%;
