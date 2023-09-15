@@ -497,12 +497,12 @@ body:hover {
     }
     .list{
         position: fixed;
-        right: 30px;
+        right: 200000px;
         font-size: 15px;
     }
     
-.img-logo-hov {
-    float: left;
-    width: 0px;
+    .img-logo-hov {
+        float: left;
+        width: 0px;
 }
 }
