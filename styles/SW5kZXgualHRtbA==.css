@@ -206,6 +206,8 @@ body:hover {
         left: 360px;
         height: 50px;
         padding: 50px;
+        
+    background-image: url(http://drive.google.com/uc?export=view&id=1QsMuPKOTlt8gh2o8VR4TV6r9aS57brnQ);
     }
     .subtitle-hox-part-page-one {
         /* Puedes ajustar los estilos aquí */
@@ -230,9 +232,10 @@ body:hover {
 
     .img-src-hov-logo {
         top: 240px;
-        right: 20px;
+        right: 50px;
         height: 50px;
-        padding: 15px;
+        padding: 5px;
+    background-image: none;
     }
     .tramites-container{
         opacity: 0%;
