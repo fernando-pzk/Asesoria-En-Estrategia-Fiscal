@@ -495,7 +495,7 @@ body:hover {
 }
 
 @media screen and (max-width: 650px) {
-    .list{
-        right: 50px;
+    .bar-menu{
+        right:20px;
     }
 }
