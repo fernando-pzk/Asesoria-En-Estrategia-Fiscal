@@ -495,4 +495,7 @@ body:hover {
     .bar-menu{
         right:20px;
     }
+    .list{
+        position: fixed;
+    }
 }
