@@ -241,6 +241,13 @@ body:hover {
     .tramites-container{
         opacity: 0%;
     }
+    
+.option {
+    float: right;
+    right: 100px;
+    font-size: 15px;
+}
+
 }
 
 /* Estilos del contenedor de información */
