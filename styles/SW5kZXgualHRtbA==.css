@@ -251,6 +251,10 @@ body:hover {
     width: 55%;
         transition:0.5s;
     }
+    
+.bar-menu {
+    right: 50px;
+}
 }
 
 /* Estilos del contenedor de información */
