@@ -493,3 +493,10 @@ body:hover {
     transition: 0.5s;
     background-color:cadetblue;
 }
+
+@media screen and (max-width: 650px) {
+    .list{
+        position:relative;
+        right: 20px;
+    }
+}
