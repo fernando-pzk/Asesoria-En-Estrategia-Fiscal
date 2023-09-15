@@ -405,6 +405,8 @@ body:hover {
 }
     .hov-cont-image{
         opacity: 0%;
+        z-index: -1;
+        height: 1px;
     }
     .fa-balance-scale {
     color: white;
