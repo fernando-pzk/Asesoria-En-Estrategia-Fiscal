@@ -380,6 +380,9 @@ body:hover {
 }
 
 @media screen and (max-width: 650px) {
+    .container{
+        margin-right:15px;
+    }
     .section-title {
         font-size: 20px;
     }
