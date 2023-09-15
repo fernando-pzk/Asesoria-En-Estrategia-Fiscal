@@ -497,5 +497,6 @@ body:hover {
     }
     .list{
         position: fixed;
+        right: 30px;
     }
 }
