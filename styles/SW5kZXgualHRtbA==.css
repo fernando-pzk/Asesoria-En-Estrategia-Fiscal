@@ -499,4 +499,9 @@ body:hover {
         position: fixed;
         right: 30px;
     }
+    
+.img-logo-hov {
+    float: left;
+    width: 0px;
+}
 }
