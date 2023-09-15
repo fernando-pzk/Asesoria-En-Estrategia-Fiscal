@@ -242,10 +242,13 @@ body:hover {
         opacity: 0%;
     }
 
-    container{
+    .container{
     left: 20px;
     width: 55%;
         transition:0.5s;
+    }
+    .list{
+        position:relative;
     }
     
 .bar-menu {
