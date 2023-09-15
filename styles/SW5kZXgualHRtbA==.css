@@ -241,10 +241,6 @@ body:hover {
     .tramites-container{
         opacity: 0%;
     }
-    
-.option {
-    font-size: 15px;
-}
 
     container{
     left: 20px;
@@ -253,7 +249,9 @@ body:hover {
     }
     
 .bar-menu {
-    width: 90%;
+    width: 80%;
+    right: 20px;
+    font-size: 15px;
 }
 }
 
