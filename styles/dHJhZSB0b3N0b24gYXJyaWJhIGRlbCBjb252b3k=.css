@@ -1,0 +1,149 @@
+
+        body {
+            font-family: Calibri, sans-serif;
+            margin: 0;
+            padding: 0;
+            overflow: scroll;
+        }
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #454545 #ffffff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #454545;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+  }
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.start-message {
+    font-size: 24px;
+    color: white;
+    background-color: darkslategrey;
+    padding: 20px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.start-message:hover {
+    background-color: aquamarine;
+    color: white;
+    transition: 0.5s;
+}
+
+.bar-menu {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 1;
+    transition: 0.5s;
+}
+
+.img-logo-hov {
+    float: left;
+    width: 50px;
+}
+
+.list {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    margin: 0px;
+    position: fixed;
+    width: 100%;
+}
+
+.option {
+    float: right;
+}
+
+.option a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.option a:hover {
+    transition: 0.5s;
+    background-color: #d8d8d8;
+}
+
+header{
+    position: relative;
+    top: 15px;
+            transition: 0.5s;
+}
+        .title {
+            font-size: 36px;
+            transition: 0.5s;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            transition: 0.5s;
+        }
+
+        h2 {
+            font-size: 24px;
+            transition: 0.5s;
+        }
+
+        .lista-coasfas {
+            list-style-type: disc;
+            padding-left: 20px;
+            transition: 0.5s;
+        }
+
+        .option-service {
+            font-size: 18px;
+            margin-bottom: 10px;
+            transition: 0.5s;
+        }
+
+/*Wbekit de bajos pixeles*/
+
+@media screen and (max-width: 650px) {
+    /* Estilo para el contenido del menú desplegable */
+.dropdown-content {
+    top: 0px;
+    left: 120px;
+}
+    .bar-menu {
+        font-size: 10px;
+        transition: 0.5s;
+}
+
+    
+
+}

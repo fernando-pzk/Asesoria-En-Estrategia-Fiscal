@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Imprimir HTML en texto</title>
+</head>
+<body>
+    <div id="output"></div>
+
+    <script>
+        // Número de botones que deseas crear
+        var numBotones = 18;
+        var htmlTexto = '';
+
+        // Generar el código HTML como texto
+        for (var i = 1; i <= numBotones; i++) {
+            htmlTexto += "<button onclick='mostrarInformacion(" + i + ")'>Botón " + i + "</button><br>";
+        }
+
+        // Mostrar el código HTML en el contenedor
+        var outputContainer = document.getElementById("output");
+        outputContainer.innerHTML = htmlTexto;
+
+        // Función para mostrar información cuando se hace clic en un botón
+        function mostrarInformacion(i) {
+            alert("Botón " + i + " fue clickeado");
+        }
+    </script>
+    
+  <script>
+    for (let i = 1; i <= 18; i++) {
+      document.write("case " + i + ":<br>");
+      document.write("&nbsp;&nbsp;return 'Información para el Botón " + i + ";");
+    }
+  </script>
+     <button onclick="generarEstilosCSS()">Generar Estilos CSS</button>
+    <pre id="estilos-css"></pre>
+
+    <script>
+        function generarEstilosCSS() {
+            var numRepeticiones = 18; // Cambia este valor según tu necesidad
+
+            var cssText = "";
+            for (var i = 1; i <= numRepeticiones; i++) {
+                cssText += ".button" + i + " {\n";
+                cssText += "    background-color: #009688;\n";
+                cssText += "}\n";
+            }
+
+            document.getElementById("estilos-css").textContent = cssText;
+        }
+    </script>
+</body>
+</html>
