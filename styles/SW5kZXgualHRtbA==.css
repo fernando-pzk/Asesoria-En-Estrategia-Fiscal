@@ -493,7 +493,7 @@ body:hover {
 
 @media screen and (max-width: 650px) {
     .bar-menu{
-        width:480px;
+        width:470px;
     }
     .list{
         position: fixed;
